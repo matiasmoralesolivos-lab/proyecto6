@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 body {
+  flex-wrap: wrap;
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+
   min-height: 100vh;
   font-family: "Roboto";
 }
@@ -13,7 +14,7 @@ menu {
   flex-direction: column;
   border: solid 2px #e8ebe4;
   display: flex;
-
+  justify-content: space-around;
   min-width: 20%;
 }
 .avatar {
@@ -26,27 +27,30 @@ menu {
 .perfil {
   display: flex;
   padding-left: 15px;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  min-height: 35px;
   align-items: center;
 }
 
 main {
-  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-color: #e8ebe4;
   display: flex;
   justify-content: center;
   align-items: center;
   border: solid 2px black;
+  min-width: 80%;
 }
 .todo-main {
   border: 2px solid red;
+  justify-content: center;
 }
 
-.foto-main {
-  width: 40%;
+.foto {
+ justify-content: center;
   border: solid 2px magenta;
-  justify-self: center;
+  border-radius: 5%;
+  align-items: center;
 }
 
 .boton {
@@ -70,12 +74,6 @@ main {
   padding-top: 3%;
 }
 
-h1 {
-  font-size: 50px;
-  text-align: center;
-  padding-top: 30px;
-}
-
 .texto {
   text-align: center;
   line-height: 1.5;
@@ -85,4 +83,9 @@ hr {
   border: none;
   height: 1px;
   background: #e8ebe4;
+}
+
+.titulomain {
+  font-size: 60px;
+  text-align: center;
 }
