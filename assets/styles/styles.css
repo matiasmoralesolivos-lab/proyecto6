@@ -7,6 +7,7 @@ body {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
+  font-family: "Roboto";
 }
 menu {
   flex-direction: column;
@@ -39,7 +40,6 @@ main {
   border: solid 2px black;
 }
 .todo-main {
-  
   border: 2px solid red;
 }
 
@@ -59,6 +59,7 @@ main {
   background-color: blueviolet;
   height: 50px;
   width: 150px;
+  color: white;
 }
 .texto-perfil {
   padding-left: 5%;
