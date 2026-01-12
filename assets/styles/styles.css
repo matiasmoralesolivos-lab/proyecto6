@@ -38,23 +38,23 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 2px black;
+
   min-width: 80%;
 }
 .todo-main {
-  border: 2px solid red;
   justify-content: center;
 }
 
 .foto {
- justify-content: center;
-  border: solid 2px magenta;
+  justify-content: center;
+
   border-radius: 5%;
   align-items: center;
+  margin-left: 245px;
+  width: 40%;
 }
 
 .boton {
-  border: 2px solid blue;
   text-align: center;
   height: 130px;
   padding-top: 35px;
